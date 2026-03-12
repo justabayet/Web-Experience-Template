@@ -6,7 +6,13 @@
             "type": "shell",
             "command": "npm run dev",
             "isBackground": true,
-            "problemMatcher": []
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "presentation": {
+                "panel": "dedicated",
+                "reveal": "always"
+            }
         }
     ]
 }
