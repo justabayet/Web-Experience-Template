@@ -1,0 +1,40 @@
+{
+  "name": "web-experience-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host",
+    "check:eslint": "eslint \"*.{ts,tsx}\"",
+    "fix:eslint": "eslint \"*.{ts,tsx}\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justabayet/Web-Experience-Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justabayet/Web-Experience-Template/issues"
+  },
+  "homepage": "https://github.com/justabayet/Web-Experience-Template#readme",
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "framer-motion": "^12.34.3",
+    "gsap": "^3.14.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "three-custom-shader-material": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.183.1",
+    "@vitejs/plugin-react": "^5.1.4",
+    "leva": "^0.10.1",
+    "vite": "^7.3.1",
+    "vite-plugin-glsl": "^1.5.5"
+  }
+}
